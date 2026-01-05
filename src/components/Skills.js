@@ -63,7 +63,7 @@ export default function Skills() {
 
         <div className={`sk__grid ${inView ? "is-in" : ""}`}>
           {SKILLS.map((s, i) => (
-            <article key={s.label} className="skCard" style={{ ["--d"]: `${i * 70}ms` }}>
+            <article key={s.label} className="skCard" style={{ "--d": `${i * 70}ms` }}>
               <div className="skCard__icon" aria-hidden="true">
                 {/* ✅ PNG icon */}
                 <img className="skIconImg" src={s.icon} alt="" loading="lazy" />

@@ -138,7 +138,7 @@ export default function Projects() {
             <article
               key={p.id}
               className="prCard"
-              style={{ ["--d"]: `${idx * 80}ms` }}
+              style={{ "--d": `${idx * 80}ms` }}
             >
               <div
                 className="prCard__media"
